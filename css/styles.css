@@ -1,0 +1,252 @@
+:root{
+    /* fonts */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /* main colors */
+    --main-txt-cl: #212121;
+    --secondary-txt-cl: #757575;
+    --special-txt-cl: #2196F3;
+    /* bg colors */
+    --light-bg-clr: #E5E5E5;
+    --grey-bg-color: #F5F4FA;
+    --black-bg-color: #2F303A;
+}
+
+body{
+    font-family: var(--main-font);
+    color: var(--main-txt-cl)
+}
+
+/* Reset styles */
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list{
+    list-style: none;
+}
+
+/* Hover, Focus  */
+/* .link:hover, .link:focus{
+    color: var(--special-txt-cl);
+} */
+
+/* Header */
+.logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.13;
+    letter-spacing: 0.03em;
+    color: var(--special-txt-cl)
+}
+
+.hdr-logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.13;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl)
+}
+
+.nav-link-current{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--special-txt-cl);
+}
+
+.nav-link-current:hover,
+.nav-link-current:focus {
+    color: var(--special-txt-cl);
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+
+ .nav-link:hover,
+ .nav-link:focus{
+    color: var(--special-txt-cl);
+ }
+
+.contacts-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+}
+
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--special-txt-cl);
+}
+
+/* Footer */
+
+.ftr{
+    background-color: var(--black-bg-color);
+}
+
+.ftr-logo{
+    color:#FFFFFF;
+}
+
+.addr-loc{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.addr-link{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.addr-link:hover{
+    color: var(--special-txt-cl);
+}
+
+/* Main */
+/* Section with an order button */
+.order{
+    background-color: var(--black-bg-color);
+}
+
+.headline{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.order-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    cursor: pointer;
+}
+
+.order-button:hover, .order-button:focus {
+    background-color: #188CE8;
+}
+
+/* Advantages */
+
+.advnt-list h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advnt-list p{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl);
+}
+
+/* Kinds of services */
+
+.title{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Team */  
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team p{
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl);
+}
+
+/*  */
+/* Portfolio */ 
+/*  */
+
+/* Portfolio section buttons */
+.prtf-btn-act {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.prtf-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--grey-bg-color);
+    cursor: pointer;
+}
+
+.prtf-btn-act:hover, .prtf-btn-act:focus{
+    background-color: #188CE8;
+}
+
+.prtf-btn:hover, .prtf-btn:focus{
+    background-color: var(--special-txt-cl);
+    color: #FFFFFF;
+}
+
+/* Examples of works */
+
+.examples-list h2{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.examples-list p{
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl);
+}
